@@ -1,0 +1,258 @@
+    1  ls
+    2  pwd
+    3  ls
+    4  touch Hello.txt
+    5  ls
+    6  ls -l
+    7  ls -la
+    8  ls -a
+    9  touch .xyz
+   10  ls
+   11  ls -a
+   12  history
+   13  ls -la
+   14  ll
+   15  #ls-la == ll
+   16  history 
+   17  ls -help
+   18  ls --h
+   19  ls help
+   20  ls -h
+   21  man ls
+   22  ls --time
+   23  ls -time
+   24  man ls
+   25  ls -u
+   26  touch Prashant
+   27  ls -u
+   28  ls -l
+   29  ls -la
+   30  mkdir yogi
+   31  ls
+   32  ls -la yogi
+   33  ls -l| grep yogi
+   34  ls
+   35  cd yogi
+   36  ls
+   37  touch myfile
+   38  ls
+   39  pwd
+   40  cd /home/ubuntu/
+   41  ls
+   42  cd yogi/
+   43  cd ..
+   44  ls -l
+   45  cd /dev/
+   46  ls -l
+   47  cd
+   48  cd /
+   49  ls
+   50  cd bin
+   51  ls
+   52  cat ls
+   53  cd
+   54  cd /
+   55  ls
+   56  sudo apt install apache2 -y
+   57  cd etc/
+   58  ls
+   59  cat hosts
+   60  cat passwd
+   61  cd ..
+   62  ls
+   63  sudo su -
+   64  pwd
+   65  cd
+   66  pwd
+   67  cd /
+   68  ls
+   69  cd home/
+   70  ls
+   71  add user yogi
+   72  adduser yogi
+   73  sudo su -
+   74  ls
+   75  su yogi
+   76  cd
+   77  ls
+   78  cd /
+   79  ls
+   80  cd home/
+   81  ls
+   82  cd yogi
+   83  ls -l
+   84  whoami
+   85  cd ..
+   86  lds
+   87  ls
+   88  cd proc/
+   89  ls
+   90  netstate -tnlp
+   91  netstat -tnlp
+   92  sudo apt install net-tools
+   93  netstat -tnlp
+   94  cd ..
+   95  ls
+   96  su yogi
+   97  su yogi 
+   98  su yogi -
+   99  cd
+  100  cd /
+  101  su yogi cd
+  102  cd
+  103  history 
+  104  ls
+  105  caT
+  106  cat
+  107  cat Hello.txt 
+  108  cat > Hello.txt 
+  109  ls
+  110  cat Hello.txt 
+  111  cat > Hello.txt 
+  112  #ctrl+D - save but override cat > file_name
+  113  cat Hello.txt 
+  114  cat >>Hello.txt 
+  115  cat Hello.txt 
+  116  ls
+  117  cat > sonali.txt
+  118  ls
+  119  cat sonali.txt 
+  120  vim Hello.txt 
+  121  vi Hello.txt 
+  122  vim Hello.txt 
+  123  cat Hello.txt 
+  124  vim Hello.txt 
+  125  cd /etc/
+  126  ls
+  127  vim hosts
+  128  alias yogi="cd"
+  129  yogi
+  130  alias yogi="touch /tmp/aliastesting"
+  131  yogi
+  132  cd /tmp/
+  133  ls
+  134  cd
+  135  vim .bashrc 
+  136  su yogi
+  137  vim .bashrc 
+  138  curl https://linuxhandbook.com/content/images/2020/06/linux-directory-structure.png
+  139  curl https://linuxhandbook.com/content/images/2020/06/linux-directory-structure.png > img.png
+  140  ls
+  141  curl https://linuxhandbook.com/content/images/2020/06/linux-directory-structure.png >myimage 
+  142  curl https://linuxhandbook.com/content/images/2020/06/linux-directory-structure.png -o > yogi/
+  143  curl https://linuxhandbook.com/content/images/2020/06/linux-directory-structure.png >newimage.png; mv yogi/newimage.png
+  144  curl https://linuxhandbook.com/content/images/2020/06/linux-directory-structure.png >newimage1.png; mv newimage1.png yogi/
+  145  cd yogi/
+  146  ls
+  147  history 
+  148  man ls
+  149  ls --help
+  150  history 
+  151  where ls
+  152  which ls
+  153  whereis xyz
+  154  whereis ls
+  155  ls
+  156  ln myfile /home/ubuntu/Prashant 
+  157  ln myfile /home/ubuntu/newdata
+  158  cd 
+  159  ls
+  160  vim newdata 
+  161  ls
+  162  cd yogi/
+  163  ls
+  164  vim myfile 
+  165  ls
+  166  touch file1.txt
+  167  ls
+  168  cat file1.txt 
+  169  ln file1.txt /home/ubuntu/syncdata
+  170  ls
+  171  cat file1.txt 
+  172  ls
+  173  cd ..
+  174  ls
+  175  cat >syncdata 
+  176  cat syncdata 
+  177  cd yogi/
+  178  ls
+  179  cat file1.txt 
+  180  ls
+  181  mkdir dir[1..5]
+  182  ls
+  183  mkdir dir[1-5]
+  184  ls
+  185  mkdir{dir1,dir2,dir3}
+  186  mkdir {dir1,dir2,dir3}
+  187  ls
+  188  mkdir {dir[10]}
+  189  ls
+  190  mkdir dir11 dir22
+  191  ls
+  192  mkdir dir100/dir101/dir102
+  193  mkdir -p dir123/dir2/dir3
+  194  ls
+  195  cd dir123/
+  196  ls
+  197  cd dir2/
+  198  ls
+  199  pwd
+  200  touch emptyFile1
+  201  touch emptyFile2 file3
+  202  ls
+  203  rm -rf file3 
+  204  ls
+  205  touch abc
+  206  rm abc 
+  207  cat >file1.txt;echo "Hello world">file1.txt
+  208  touch file1.txt;echo "Hello world">file1.txt
+  209  ls
+  210  cat file1.txt 
+  211  history 
+  212  cd
+  213  history 
+  214  man find 
+  215  find --help
+  216  ls
+  217  cat Hello.txt 
+  218  ls
+  219  find Hello -name Hello.txt 
+  220  find yogi -name Hello.txt 
+  221  find yogi -name .
+  222  find . -name yogi
+  223  find /etc/ -name passwd
+  224  find /etc/ -name /passwd
+  225  find /etc/ -name /passwd/
+  226  find /etc/ -name passwd
+  227  find /etc/ -type d -name passwd
+  228  find /etc/ -type - -name passwd
+  229  find /etc/ -type c -name passwd
+  230  find /etc/ -type f -name passwd
+  231  find /etc/ -type f -name "passwd"
+  232  cd /etc/
+  233  ls
+  234  ll | grep passwd
+  235  cat passwd
+  236  cd
+  237  find /etc/ -type f -name passwd 
+  238  find /etc/ -type f -name passwd.txt
+  239  find /etc/ -type f -name passwd | grep passwd
+  240  sudo su -
+  241  ls
+  242  cd yogi/
+  243  ls
+  244  cd dir1
+  245  cd ..
+  246  ls 
+  247  ls
+  248  ls -l
+  249  ls
+  250  vim emptyFile
+  251  vim emptyFile1
+  252  ls
+  253  ll
+  254  touch -t 20220923.09 emptyFile1
+  255  touch -t 202209230340.09 emptyFile1
+  256  ll
+  257  history 
+  258  history > myhistory.txt
